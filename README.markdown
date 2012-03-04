@@ -5,11 +5,11 @@ ruby_run.vim is a simple plugin for executing a ruby buffer or a selected block 
 
 Default mapping are:
 
-   " key-mappings for comment line in normal mode
-   noremap  <silent> <C-E> :call RubyRun()<CR>
+- Executing the whole buffer
+    noremap  <silent> <C-E> :call RubyRun()<CR>
 
-   " key-mappings for range comment lines in visual <Shift-V> mode
-   vnoremap <silent> <C-E> :call RubyRangeRun()<CR>
+- Executing selected range
+    vnoremap <silent> <C-E> :call RubyRangeRun()<CR>
 
 Installation
 ------------
