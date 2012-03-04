@@ -6,9 +6,11 @@ ruby_run.vim is a simple plugin for executing a ruby buffer or a selected block 
 Default mapping are:
 
 - Executing the whole buffer
+
     noremap  <silent> <C-E> :call RubyRun()<CR>
 
 - Executing selected range
+
     vnoremap <silent> <C-E> :call RubyRangeRun()<CR>
 
 Installation
